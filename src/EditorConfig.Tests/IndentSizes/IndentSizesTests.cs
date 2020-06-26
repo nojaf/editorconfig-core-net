@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using EditorConfig.Core;
 using FluentAssertions;
 using NUnit.Framework;
 

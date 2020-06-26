@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
 
-namespace EditorConfig.Core
+namespace Fantomas.EditorConfig.Core
 {
 	/// <summary>
 	/// The EditorConfigParser locates all relevant editorconfig files and makes sure they are merged correctly.

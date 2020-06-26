@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using EditorConfig.Core;
+using Fantomas.EditorConfig.Core;
 using FluentAssertions;
 using NUnit.Framework;
 

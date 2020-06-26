@@ -1,4 +1,4 @@
-namespace EditorConfig.Core
+namespace Fantomas.EditorConfig.Core
 {
 	/// <summary>
 	/// set to lf, cr, or crlf to control how line breaks are represented.

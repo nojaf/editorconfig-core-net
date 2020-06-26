@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
  * From https://github.com/SLaks/Minimatch
  */
 
-namespace EditorConfig.Core
+namespace Fantomas.EditorConfig.Core
 {
   // ReSharper disable UnusedAutoPropertyAccessor.Global
 

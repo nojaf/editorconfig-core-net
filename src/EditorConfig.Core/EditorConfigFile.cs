@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
-namespace EditorConfig.Core
+namespace Fantomas.EditorConfig.Core
 {
 	/// <summary>
 	/// Represents an ini section within the editorconfig file

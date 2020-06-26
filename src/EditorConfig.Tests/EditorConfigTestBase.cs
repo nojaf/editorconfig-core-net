@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using EditorConfig.Core;
+using Fantomas.EditorConfig.Core;
 using FluentAssertions;
 
 namespace EditorConfig.Tests

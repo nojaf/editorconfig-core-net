@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 
-namespace EditorConfig.Core
+namespace Fantomas.EditorConfig.Core
 {
 
 	public class FileConfiguration
@@ -225,19 +223,19 @@ namespace EditorConfig.Core
 			switch (charset)
 			{
 				case "latin1":
-					this.Charset = EditorConfig.Core.Charset.Latin1;
+					this.Charset = Fantomas.EditorConfig.Core.Charset.Latin1;
 					return;
 				case "utf-16be":
-					this.Charset = EditorConfig.Core.Charset.UTF16BE;
+					this.Charset = Fantomas.EditorConfig.Core.Charset.UTF16BE;
 					return;
 				case "utf-16le":
-					this.Charset = EditorConfig.Core.Charset.UTF16LE;
+					this.Charset = Fantomas.EditorConfig.Core.Charset.UTF16LE;
 					return;
 				case "utf-8":
-					this.Charset = EditorConfig.Core.Charset.UTF8;
+					this.Charset = Fantomas.EditorConfig.Core.Charset.UTF8;
 					return;
 				case "utf-8-bom":
-					this.Charset = EditorConfig.Core.Charset.UTF8BOM;
+					this.Charset = Fantomas.EditorConfig.Core.Charset.UTF8BOM;
 					return;
 			}
 		}
